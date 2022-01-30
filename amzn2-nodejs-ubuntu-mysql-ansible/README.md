@@ -27,7 +27,7 @@ vagrant up
 # login in VM with SSH
 vagrant ssh *VM_NAME*
 
-# or
-ssh -i .\\key.pub vagrant@IP_HERE # Windows
-ssh -i ./key.pub vagrant@IP_HERE # Linux
+# or (possible known_hosts ssh problem)
+ssh -i .\\key vagrant@IP_HERE # Windows
+ssh -i ./key vagrant@IP_HERE # Linux
 ```
